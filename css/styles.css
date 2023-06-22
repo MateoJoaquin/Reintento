@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    font-family:'Tajawal', sans-serif;
+}
+a{
+    text-decoration:none;
+    color: #1bcff6 ;
+    font-weight: 700;
+    padding-right: 100px;
+    font-size: 25px;
+}
+header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    justify-content:space-between;
+    padding: 10px;
+    
+    align-items: center;
+    
+    
+}
+.logo{
+    display: flex;
+    
+}
+.logo img {   
+    height: 130px; 
+    
+  
+   
+    
+  
+    
+   
+    
+   
+
+    
+     
+
+
+}
+   
+
+
