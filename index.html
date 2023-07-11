@@ -1,47 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mateo Grenat</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;500&display=swap" rel="stylesheet">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Linkeamos archivo mediaqueries -->
+    <link rel="stylesheet" href="css/medias.css" />
+    <script src="https://kit.fontawesome.com/cd440abdea.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <img src="css/letter-z_6229760.png" alt="Logo" class="logo" />
 
-</head>
-<header>
-  <div class="logo">
-      <img class="hola" src="css/letter-z_6229760.png" width="90px" alt="" >
-  </div>
-  <nav>
-  <ul class="nav">
-   
-      <li  class="nav2"><a href=>Home</a></li>
-      <li  class="nav2"><a href=>Nosotros</a></li>
-      <li  class="nav2"><a href=>Servicios</a></li>
-  
-  </ul>
-</nav>
-  <a href="">Log inn</a>
-</header>  
-<body>
-    <div class="hero">
-      <div class="hero2">
-        <h1 class="h1"> Innovación de hoy para el éxito del mañana.</h1>
-        <h2 class="h2"> Conosca las herramientas tecnologias necesarias para destacar de la competencia e impulsar el éxito empresarial</h2>
-      <div class="btn">
-        <a href="" class="btn1">Testimonios</a>
-        <a href="" class="btn2">Plataforma</a>
-      </div>
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
         
+
+        <ul class="navbar-list">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+        </ul>
+        <!-- Carrito -->
+        <!-- Agregamos input y label para la funcionalidad del carrito -->
+        <label for="cart-toggle" class="cart-label">
+      
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+    
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero">
+        <div class="hero-info">
+          <h1>Innovación de hoy para el éxito del mañana</h1>
+          <p>
+            La implementación de tecnología
+             avanzada en las operaciones comerciales tiene numerosos beneficios para mejorar la experiencia del cliente. 
+          </p>
+
+             <a >Plataforma</a>
+
+        </div>
+
+
+        
+        <div class="hero-card">
+          <img src="css/hand_1077976.png" alt= />
+    
+          </div>
+        </div>
+      </section>
+      <div class ="titulolanding">
+        <h1>Nuestros beneficios</h1>
+        <p>Pensados para el interes de nuestros clientes</p>
+      </div>
+      <section id=>
+
+        <div class="info-cards-container">
+      
+          <div class="info-card">
+            <img src="css/card3.png" alt= />
+            <h3>Asistencia</h3>
+            <p>
+              Podes resolver tus dudas al instante con un operador
+            </p>
+          </div>
+        
+          <div class="info-card">
+            <img src="css/card2.png" alt= />
+            <h3>Global</h3>
+            <p>
+              Adquiris nuestros servicios no importa donde estes
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="css/card1.png" alt= />
+            <h3>Amplio</h3>
+            <p>
+              Expande los limites de tu empresa
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <div class="proporcion">
+
     </div>
-      <img src="css/hand_1077976.png"  height="500px" alt="">
-    </div>
-    <div>
-    <p class="parrafo">La implementación de tecnología
-      avanzada en las operaciones comerciales tiene numerosos beneficios para mejorar la experiencia del cliente. En primer lugar, la tecnología puede agilizar los procesos, haciéndolos más eficientes y rentables. Por ejemplo, los sistemas automatizados pueden manejar tareas rutinarias como el procesamiento de pedidos y la gestión de inventario, lo que permite a los empleados concentrarse en brindar un servicio al cliente personalizado.</p>
-    </div>
-</body>
+
+    <footer>
+      <div class="footer-content">
+          <h3>Contactanos</h3>
+
+            
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+
+     
+  </footer>
+  </body>
 </html>
